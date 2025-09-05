@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Замовлення</title>
+</head>
+<body>
+    <header>
+        <h1>Зробіть замовлення!!!1!11!1</h1>
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="menu.html">Меню</a>
+            <a href="order.html">Замовлення</a>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <label>Ваше ім’я:
+                <input type="text" name="name" required>
+            </label><br><br>
+
+            <label>Email:
+                <input type="email" name="email" required>
+            </label><br><br>
+
+            <p>Оберіть напій:</p>
+            <input type="radio" name="drink" value="Еспресо"> Еспресо
+            <input type="radio" name="drink" value="Капучино"> Капучино
+            <input type="radio" name="drink" value="Лате"> Лате
+            <br><br>
+
+            <p>Додатково:</p>
+            <input type="checkbox" name="extra" value="Молоко"> Молоко
+            <input type="checkbox" name="extra" value="Цукор"> Цукор
+            <input type="checkbox" name="extra" value="Сироп"> Сироп
+            <br><br>
+
+            <label>Коментар:<br>
+                <textarea name="comment" rows="4" cols="40"></textarea>
+            </label><br><br>
+
+            <label>Місто доставки:
+                <select name="city">
+                    <option>Київ</option>
+                    <option>Львів</option>
+                    <option>Одеса</option>
+                </select>
+            </label><br><br>
+
+            <button type="submit">Надіслати</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Кав’ярня Arima</p>
+    </footer>
+</body>
+</html>
